@@ -13,7 +13,7 @@ __DEBUG__ = False
 existSSh = "ssh -qTfnN"
 
 # fill the exact ssh information below
-info = (host, username, password)
+info = ("host", "username", "password")
 
 def d(msg):
     """ print msg when __DEBUG__ is True"""
